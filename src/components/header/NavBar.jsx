@@ -1,5 +1,5 @@
+import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css";
-import { BsCart4 } from "react-icons/bs";
 
 const header = () => {
   return (
@@ -23,10 +23,7 @@ const header = () => {
           </li>
         </ul>
         <div>
-          <span className="logoCarrito">
-            <BsCart4 size={40} />
-          </span>
-          <span className="contador">0</span>
+          <CartWidget />
         </div>
       </nav>
     </>

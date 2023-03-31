@@ -29,18 +29,3 @@ nav a {
 nav a:hover {
   color: black;
 }
-
-.logoCarrito {
-  margin-right: 30px;
-}
-
-.contador {
-  color: red;
-  font-weight: bolder;
-  position: absolute;
-  top: 16px;
-  right: 40px;
-  background-color: white;
-  width: 20px;
-  border-radius: 20px;
-}
