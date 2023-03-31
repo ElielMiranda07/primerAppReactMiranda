@@ -1,0 +1,46 @@
+nav {
+  height: 100px;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logoWeb {
+  height: 80px;
+  margin-left: 15px;
+  border-radius: 40px;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.logoCarrito {
+  margin-right: 30px;
+}
+
+.contador {
+  color: red;
+  font-weight: bolder;
+  position: absolute;
+  top: 16px;
+  right: 40px;
+  background-color: white;
+  width: 20px;
+  border-radius: 20px;
+}
