@@ -1,4 +1,4 @@
-nav {
+.containerNavbar {
   height: 100px;
   background-color: blueviolet;
   display: flex;
@@ -13,19 +13,19 @@ nav {
   border-radius: 40px;
 }
 
-nav ul {
+.containerNavbar ul {
   display: flex;
   gap: 40px;
   list-style: none;
 }
 
-nav a {
+.containerNavbar a {
   text-decoration: none;
   color: white;
   font-size: large;
   font-weight: bolder;
 }
 
-nav a:hover {
+.containerNavbar a:hover {
   color: black;
 }

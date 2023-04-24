@@ -1,10 +1,17 @@
-import "./ItemList.css";
+import ItemCard from "./ItemCard";
 
-const ItemList = ({ saludo }) => {
+const ItemList = ({ items }) => {
   return (
-    <>
-      <div className="divItemList">{saludo}</div>
-    </>
+    <div
+      style={{
+        textAlign: "center",
+        width: "250px",
+      }}
+    >
+      {items.map((item) => {
+        return <ItemCard item={item} key={item.id} />;
+      })}
+    </div>
   );
 };
 
